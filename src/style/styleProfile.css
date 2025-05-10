@@ -1,0 +1,49 @@
+/* styleProfile.css */
+.cardProfile {
+    
+    width: 100%;              /* Asegura el ancho de toda la ventana */
+    background-color: #cccc;
+    height: 60px;
+    
+  }
+
+  .cardProfile nav ul li {
+    list-style-type: none;
+  }
+
+  .cardProfile nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    
+
+  }
+
+  .cardProfile nav {
+    height: 100%;
+  }
+
+  .cardProfile a{
+    color: wheat;
+    padding: 10px;
+
+  }
+  .cardProfile a:hover{
+    background-color: black;
+    opacity: 1;
+  }
+
+  .cardProfile img{
+    height: 60px;
+  }
+  
+  .navMenu{
+    position:relative;
+    margin-left:10px;
+  }
+
+  .naveImage{
+    position: absolute;
+
+  }
